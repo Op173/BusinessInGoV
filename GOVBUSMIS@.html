@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business in Government</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('images/background.jpg'); /* Replace with your background image */
+            background-size: cover;
+            background-position: center;
+            color: black;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 20px;
+            font-size: 48px;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: black;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            z-index: 10;
+        }
+
+        .pdf-container {
+            position: relative;
+            top: 80px; /* Space below the heading */
+            width: 100%;
+            height: calc(100vh - 80px); /* Take up the rest of the page */
+            padding: 10px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Heading -->
+    <h1>Business in Government</h1>
+
+    <!-- PDF Container -->
+    <div class="pdf-container">
+        <!-- Embed PDF from local path -->
+        <iframe src="file:///C:/Users/21oma/OneDrive/Documents/ExcutiveSummaryGOVinBus.pdf" title="Business in Government PDF"></iframe>
+    </div>
+
+</body>
+</html>
